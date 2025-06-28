@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html><head><title>Giriş Yap</title></head>
+<body style="background:black;color:white;text-align:center;">
+<h1>🔐 BBHack Giriş</h1>
+{% if error %}<p style="color:red;">{{ error }}</p>{% endif %}
+<form method="post">
+  <input name="username" placeholder="Kullanıcı Adı"><br><br>
+  <input type="password" name="password" placeholder="Şifre"><br><br>
+  <button type="submit">Giriş Yap</button>
+</form>
+</body></html>
